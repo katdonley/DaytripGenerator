@@ -146,7 +146,7 @@ def run_daytrip_generator():
 def final_confirmation():
     confirmation = input("Are you happy with these selections? (yes or no)")
     if confirmation == "yes":
-        print("You did it!  Have fun bitch! YAAAAS!")
+        print("Awesome! Hope you have a great time on your trip! Thank you for using the Day Trip Generator, come again soon :) ")
     elif confirmation == "no":
         run_daytrip_generator()
         
